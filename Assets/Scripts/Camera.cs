@@ -6,7 +6,7 @@ public class Camera : MonoBehaviour
 
     public void Start()
     {
-        _player = GameObject.FindObjectOfType<PlayerController>().transform;
+        _player = GameObject.FindObjectOfType<Player>().transform;
     }
 
     public void Update()
